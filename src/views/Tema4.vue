@@ -68,7 +68,7 @@
           img(src="@/assets/curso/temas/tema4/7.svg" alt="Captura de pantalla del espacio de trabajo en el que se muestra cómo se puede realizar el monitoreo y rendimiento de forma gráfica.")
           figcaption.mt-1 Nota. Tomada de ejercicio práctico de instalación del autor en pgadmin.org 
 
-    PasosA.color-secundario(tipo="n")
+    PasosA.color-secundario.mb-4(tipo="n")
       .row.align-items-center
         .col-lg-10.mb-4.mb-md-0
           h5 Página de inicio para la creación de base de datos PostgreSQL
@@ -115,6 +115,9 @@
         .col-lg-2
           img.px-lg-3(src="@/assets/curso/temas/tema4/paso7.svg")
 
+
+    .cajon.color-acento-contenido.p-4.mb-4
+      p.mb-0 Para profundizar en la creación de bases de datos PostgreSQL, se sugiere revisar los vídeos ubicados en la material complementario.
 
 
 </template>

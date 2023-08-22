@@ -172,6 +172,20 @@ export default {
       link: 'https://www.youtube.com/watch?v=WKfgnzl0p3E',
     },
     {
+      tema: '4. Creación de base de datos PostgreSQL',
+      referencia:
+        'Database Star. (2022). pgAdmin Tutorial - How to Use pgAdmin. [Video]. Youtube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=WFT5MaZN6g4',
+    },
+    {
+      tema: '4. Creación de base de datos PostgreSQL',
+      referencia:
+        'Reyes, P. (2021). Crear base de datos PostgreSQL - PGAdmin 4. [Video]. Youtube',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=B_lqjZGwViI',
+    },
+    {
       tema: '10. SQLite para aplicaciones livianas',
       referencia:
         'Henao, C. (2017). 50. <em>Cómo crear una Base de Datos SQLite en Android</em> [Video]. YouTube.',
