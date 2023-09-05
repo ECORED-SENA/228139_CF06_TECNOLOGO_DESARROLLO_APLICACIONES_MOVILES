@@ -19,7 +19,7 @@
     Separador 
 
     .titulo-segundo.color-acento-contenido.mt-5(data-aos="fade")
-      h2#t_2_1 2.1 Data management system DNMS
+      h2#t_2_1 2.1 <em>Data management system</em> DNMS
 
     p.mb-4(data-aos="fade") Este se puede definir como un #[em software] que estructura y organiza la información, bajo un modelo de almacenamiento que cuenta con ciertas características particulares, al momento de almacenar configurar, administrar y utilizar la información.
 
@@ -54,7 +54,7 @@
           .tarjeta.caja_flotante_azul(style="background-color:#4DD0E1;min-height:250px;")
             .p-4
               h4 Lenguaje SQL
-              p.mt-3.mb-0 El más conocido usado y trabajado de estos lenguajes es SQL (#[em Structured Query Language]), que se define como un lenguaje de consulta estructurado.
+              p.mt-3.mb-0 El más conocido, usado y trabajado de estos lenguajes es SQL (#[em Structured Query Language]), que se define como un lenguaje de consulta estructurado.
 
       .col-lg-6(data-aos="fade-left")
         .tarjeta-avatar-b.mb-5
@@ -68,7 +68,7 @@
     
     Separador 
 
-    .titulo-segundo.color-acento-contenido.mt-5
+    .titulo-segundo.color-acento-contenido.mt-5(data-aos="fade")
       h2#t_2_2 2.2 Componentes de un SGBD
 
     .cajon.color-primario.p-5.caja_flotante_azul.mb-4(style="background-color: #DBFBFF;" data-aos="fade")
@@ -102,7 +102,7 @@
 
     Separador
 
-    .titulo-segundo.color-acento-contenido.mt-5
+    .titulo-segundo.color-acento-contenido.mt-5(data-aos="fade")
       h2#t_2_3 2.3. Propiedad de un SGBD
 
     p(data-aos="fade") Por lo general, todas las aplicaciones móviles cuentan con una base de datos que puede ser pequeña y simple o muy grande y robusta; pero, por más pequeña que esta sea, debe contar con ciertas tareas, funciones y propiedades que harán de la base de datos un elemento aportante al buen desempeño de la aplicación (Silberschatz, Korth y Sudarshan, 2006).
@@ -149,8 +149,8 @@
     
     Separador 
 
-    .titulo-segundo.color-acento-contenido.mt-5
-      h2#t_2_4 2.4 Tipos de SGBD utilizados en apps móviles
+    .titulo-segundo.color-acento-contenido.mt-5(data-aos="fade")
+      h2#t_2_4 2.4 Tipos de SGBD utilizados en <em>apps</em> móviles
 
     p(data-aos="fade") El principal objetivo de la instalación de un sistema gestor de base de datos es desarrollar y administrar la información de la base de datos, de la mejor manera posible. Existen diferentes modelos que se diferencian, fundamentalmente, en la manera en la cual está almacenada y es consultada la información. Por lo tanto, decidirse por un DBMS ha de estar más ligado al tipo de aplicación que se quiere desarrollar y la manera en que se deban almacenar y consultar los datos dentro de la aplicación; para ello, conocer los modelos de datos y sus características, permitirá saber, de forma sencilla, cuál es la opción más adecuada para implementar. 
 
@@ -170,27 +170,60 @@
         tbody
           tr(style="background-color:#F6F6F6")
             td(style="border-right: 1px #bababa solid;") Relacional
-            td(style="border-right: 1px #bababa solid;") El más común y popular. #[br] Los datos se estructuran en filas de tabla. #[br] La posibilidad de crear diferentes relaciones entre las filas y presentarlas en columnas.#[br] Una tabla puede tener muchos registros y cada registro puede tener muchos campos.#[br] Utiliza el lenguaje SQL.#[br] SQL se utiliza en, prácticamente, todas las bases de datos relacionales. #[br] Esto permite una mayor seguridad e integración con otras bases de datos.
-            td Microsoft Access. #[br] Microsoft SQL Server.#[br] MySQL.#[br] Db2 de IBM.#[br] Oracle Database.#[br] IBM Informix.#[br] MariaDB.#[br] Sybase ASE.#[br] Firebird.
+            td(style="border-right: 1px #bababa solid;") 
+              p El más común y popular. 
+              p Los datos se estructuran en filas de tabla.
+              p La posibilidad de crear diferentes relaciones entre las filas y presentarlas en columnas.
+              p Una tabla puede tener muchos registros y cada registro puede tener muchos campos.
+              p Utiliza el lenguaje SQL.
+              p SQL se utiliza en, prácticamente, todas las bases de datos relacionales. 
+              p.mb-0 Esto permite una mayor seguridad e integración con otras bases de datos.
+            td 
+              p Microsoft Access. 
+              p Microsoft SQL Server.
+              p MySQL.
+              p Db2 de IBM.
+              p Oracle Database.
+              p IBM Informix.
+              p MariaDB.
+              p Sybase ASE.
+              p.mb-0 Firebird.
           tr
             td(style="border-right: 1px #bababa solid;") Jerárquica
-            td(style="border-right: 1px #bababa solid;") Es similar a la estructura de un árbol y muy parecida a la estructura de Microsoft Windows que organiza las carpetas y archivos. #[br] El enlace es anidado conservando los datos organizados en un orden particular en un mismo nivel de lista. #[br] Esto reduce el requerimiento de memoria y también aumenta la eficiencia.
+            td(style="border-right: 1px #bababa solid;") 
+              p Es similar a la estructura de un árbol y muy parecida a la estructura de Microsoft Windows que organiza las carpetas y archivos.  
+              p El enlace es anidado conservando los datos organizados en un orden particular en un mismo nivel de lista. 
+              p.mb-0 Esto reduce el requerimiento de memoria y también aumenta la eficiencia.
             td IMS de IBM.
           tr(style="background-color:#F6F6F6") 
             td(style="border-right: 1px #bababa solid;") De red
-            td(style="border-right: 1px #bababa solid;") En un modelo de red, la característica determinante es que almacena un registro con un enlace a otros registros formando una red.#[br] Los componentes de una base de datos de red pueden tener varias relaciones padre-hijo. #[br] Dado que siempre hay un vínculo entre un padre y un hijo, se mantiene la integridad de los datos.
-            td PostgreSQL. #[br] InterSystems Caché. #[br] InterSystems IRIS.
+            td(style="border-right: 1px #bababa solid;") 
+              p En un modelo de red, la característica determinante es que almacena un registro con un enlace a otros registros formando una red. 
+              p Los componentes de una base de datos de red pueden tener varias relaciones padre-hijo.
+              p.mb-0 Dado que siempre hay un vínculo entre un padre y un hijo, se mantiene la integridad de los datos.
+            td 
+              p PostgreSQL. 
+              p InterSystems Caché. 
+              p.mb-0 InterSystems IRIS.
           tr
             td(style="border-right: 1px #bababa solid;") Orientada a objetos
             td(style="border-right: 1px #bababa solid;") Utiliza el concepto de la herencia: esto representa que los objetos pueden transferir algunos de sus atributos a otros objetos, lo que se regula a través del SGBD.
-            td PostgreSQL. #[br] InterSystems Caché (combina relacional y orientado a objetos). #[br] InterSystems IRIS (combina relacional y orientado a objetos).
+            td 
+              p PostgreSQL. 
+              p InterSystems Caché (combina relacional y orientado a objetos). 
+              p.mb-0 InterSystems IRIS (combina relacional y orientado a objetos).
           tr(style="background-color:#F6F6F6") 
             td(style="border-right: 1px #bababa solid;") Orientada a documentos
             td(style="border-right: 1px #bababa solid;") Almacena los registros de datos en diferentes documentos.
-            td OrientDB. #[br] CouchDB. #[br] MongoDB.
+            td 
+              p OrientDB. 
+              p CouchDB. 
+              p.mb-0 MongoDB.
           tr
             td(style="border-right: 1px #bababa solid;") El modelo de base de datos plana
-            td(style="border-right: 1px #bababa solid;") En un modelo de base de datos plano, hay dos dimensiones. #[br] Todos los registros se almacenan en un solo lugar.  #[br] Funciona bien para bases de datos pequeñas y tiene requisitos mínimos de #[em software] y #[em hardware].
+            td(style="border-right: 1px #bababa solid;") En un modelo de base de datos plano, hay dos dimensiones.
+              p Todos los registros se almacenan en un solo lugar. 
+              p.mb-0 Funciona bien para bases de datos pequeñas y tiene requisitos mínimos de #[em software] y #[em hardware].
             td Excel.
 
 

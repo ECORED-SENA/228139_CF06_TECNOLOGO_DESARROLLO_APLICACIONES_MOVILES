@@ -42,13 +42,13 @@
       .row.justify-content-center(titulo="Alojamiento en servidor")
         .col-md-11
           p Una buena práctica es estructurar y diseñar la lógica de base de datos de la aplicación y alojarla en un servidor de aplicaciones accesible desde la web y comunicarse con ese servidor de aplicaciones, por medio de protocolos HTTP + JSON, SOAP, XML-RPC o similares, dependiendo del lenguaje y #[em frameware] que se está utilizando para el desarrollo. Esto hará mucho más eficiente el uso del ancho de banda y la aplicación será más tolerante a los problemas con la conectividad. También evitará exponer la base de datos directamente a internet.
-      .row.justify-content-center(titulo="SOAP - Simple Object Access Protocol")
+      .row.justify-content-center(titulo="SOAP - <em>Simple Object Access Protocol</em>")
         .col-md-11
           p SOAP es un protocolo escrito en XML para el intercambio de información entre aplicaciones. Es un formato para enviar mensajes, diseñado especialmente para servir de comunicación en Internet, pudiendo extender los HTTP #[em headers]. Es una forma de definir qué información se envía y cómo, mediante XML. Básicamente es un protocolo para acceder a un #[em Web Service] (Lázaro, 2018).
-      .row.justify-content-center(titulo="WSDL - Web Services Description Language")
+      .row.justify-content-center(titulo="WSDL - <em>Web Services Description Language</em>")
         .col-md-11
           p WSDL es un lenguaje basado en XML para describir los servicios web y cómo acceder a ellos. Es el formato estándar para describir un #[em Web Service], y fue diseñado por #[em Microsoft] e IBM. WSDL es una parte integral del estándar UDDI y es el lenguaje que este utiliza (Lázaro, 2018).
-      .row.justify-content-center(titulo="UDDI - Universal Description, Discovery and Integration")
+      .row.justify-content-center(titulo="UDDI - <em>Universal Description, Discovery and Integration</em>")
         .col-md-11
           p UDDI es un estándar XML para describir, publicar y encontrar servicios web. Es un directorio donde las compañías pueden registrar y buscar servicios web. Es un directorio de interfaces de servicios web descritos en WSDL que se comunican mediante SOAP (Lázaro, 2018).
 

@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Gestores de bases de datos para apps móviles y relacionales
+      h1 Gestores de bases de datos para <em>apps</em> móviles y relacionales
 
     p(data-aos="fade") Los gestores de bases de datos se dividen según la manera en que se administran los datos. En la actualidad existen dos modelos: las relacionales (SQL) y las no relacionales (NoSQL). En este punto, se enfocará la mirada hacia los gestores de bases de datos relacionales (SQL). Este modelo se caracteriza por establecer vínculos y relaciones entre los datos, utilizando una tabla integradora por cada relación existente con sus propios registros y atributos.
     p.mb-4(data-aos="fade") En la figura 2 se muestra un ejemplo de arquitectura del modelo relacional.

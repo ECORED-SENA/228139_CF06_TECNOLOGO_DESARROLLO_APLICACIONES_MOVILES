@@ -11,15 +11,14 @@
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/1.svg')})`}")
       .bloque-texto-g__texto.p-4
-        p.mb-0 Este diseño se realiza cuando se cuenta con toda la información disponible del proyecto; esta información debe estar catalogada y ordenada de manera clara para iniciar la clasificación de datos y su organización, con lo que se genera el modelo lógico y conceptual, basado y fundamentado en el modelo físico que se obtuvo como resultado de la investigación y levantamiento de la información.
+        p.mb-0 Este diseño se realiza cuando se cuenta con toda la información disponible del proyecto; esta información debe estar catalogada y ordenada de manera clara para iniciar la clasificación de datos y su organización, con lo que se genera el modelo lógico y conceptual, basado y fundamentado en el modelo físico que se obtuvo como resultado de la investigación y levantamiento de la información, tal como se aprecia a continuación.
 
-    p.mb-4(data-aos="fade") Este diseño se realiza cuando se cuenta con toda la información disponible del proyecto; esta información debe estar catalogada y ordenada de manera clara para iniciar la clasificación de datos y su organización, con lo que se genera el modelo lógico y conceptual, basado y fundamentado en el modelo físico que se obtuvo como resultado de la investigación y levantamiento de la información, tal como se aprecia a continuación.
-
-    .titulo-sexto.color-acento-contenido(data-aos="fade")
-      p.mb-0 #[b Figura 1.] Base de datos relacional
-
-    figure.mb-5(data-aos="fade-down")
-      img(src="@/assets/curso/temas/tema1/2.svg" alt="Proceso esquemático en el diseño de una base de datos, que inicia con el levantamiento y organización de información para luego clasificarla.")
+    .row.justify-content-center
+      .col-lg-9
+        .titulo-sexto.color-acento-contenido(data-aos="fade")
+          p.mb-0 #[b Figura 1.] Base de datos relacional
+        figure.mb-5(data-aos="fade-down")
+          img(src="@/assets/curso/temas/tema1/fig1.svg" alt="Proceso esquemático en el diseño de una base de datos, que inicia con el levantamiento y organización de información para luego clasificarla.")
 
     p.mb-4(data-aos="fade") Algunos parámetros en la generación del diseño de la base de datos son:
 

@@ -8,7 +8,7 @@
       h1 Creación de base de datos PostgreSQL
 
     p(data-aos="fade") Este gestor de base de datos relacional, fundamentado sobre el modelo orientado a objetos, es de uso libre y cuenta con un excelente soporte para crear y administrar bases de datos de diferente tamaño y servicios. En este punto del componente, se visualizarán los pasos de la creación de una base de datos y su alojamiento sobre un servidor que provee la plataforma, monitoreando todas las actividades y el flujo de información que se genera, en tiempo real, sobre la aplicación móvil.
-    p.mb-4(data-aos="fade") #[strong A continuación, se muestran los pasos y orientaciones de creación de base de datos, en PostgreSQL. Se recomienda aplicar cada uno de ellos, abriendo las diapositivas que los contienen. ¡Adelante!]
+    p.mb-4(data-aos="fade") #[strong A continuación, se muestran los pasos y orientaciones de creación de base de datos, en PostgreSQL.]
 
     //TabsA.color-acento-botones.mt-5(data-aos="fade-down")
       .tarjeta.color-primario.p-4(titulo="1. Crear y administrar una base de datos PostgreSQL" style="background-color:rgb(124 197 255 / 15%)")

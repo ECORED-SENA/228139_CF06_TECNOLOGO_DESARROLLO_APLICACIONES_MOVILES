@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 8
-      h1 Configuración de Firebase a una app móvil híbrida
+      h1 Configuración de Firebase a una <em>app</em> móvil híbrida
 
     p.mb-4(data-aos="fade") Una buena opción para trabajar bases de datos en aplicaciones móviles híbridas es utilizar un #[em web server] como Firebase, que ofrece a los desarrolladores y administradores de bases de datos opciones para crear aplicaciones de plataforma web, Android e iOS, funcionales y versátiles. Firebase se puede comprender como una plataforma que integra y presta varios servicios esenciales para el desarrollo de aplicaciones móviles; es un producto soportado por Google con grandes complementos y funciones para desarrollar, manejar, administrar y potenciar las aplicaciones móviles y #[em software] en general.
 

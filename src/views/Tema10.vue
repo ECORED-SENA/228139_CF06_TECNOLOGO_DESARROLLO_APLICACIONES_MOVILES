@@ -28,11 +28,11 @@
             img(src='@/assets/curso/temas/tema10/2.svg', alt='')
 
     .row
-      .col-md-6.mb-4(data-aos="fade-right")
+      .col-md-6.order-2.order-lg-1.mb-4(data-aos="fade-right")
         .imagen-titulo--der.color-primario
           figure
             img(src='@/assets/curso/temas/tema10/3.svg', alt='')
-      .col-md-6.mb-4(data-aos="fade-left")
+      .col-md-6.order-1.order-lg-2.mb-4(data-aos="fade-left")
         h3.mt-3 Migraciones a diversas plataformas
         p.mt-3 Fue diseñado con lenguaje de programación C, por esa sencilla razón es soportado para realizar migraciones sencillas a diversas plataformas de sistemas operativos y a dispositivos electrónicos que requieran bases de datos pequeñas, SQLite es una base de datos muy eficaz para cualquier desarrollo en ambientes embebidos, pues ofrece un alto rendimiento, eficacia, seguridad, estandarización e inter tolerabilidad. Todo esto la ha catapultado a convertirse en la base de datos de facto para desarrollos móviles (Rómmel, s. f.).
 

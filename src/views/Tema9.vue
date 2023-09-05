@@ -7,7 +7,7 @@
         span 9
       h1 Vinculación de Firebase a la aplicación móvil
     
-    p.mb-4(data-aos="fade") El primer paso para realizar la vinculación de Firebase a la aplicación móvil, es crear un proyecto en Firebase definiendo las características necesarias para su funcionamiento. Esta vinculación es importante porque es una de las plataformas más usadas en el desarrollo de apps móviles por sus ventajas y recursos ofrecidos.
+    p.mb-4(data-aos="fade") El primer paso para realizar la vinculación de Firebase a la aplicación móvil, es crear un proyecto en Firebase definiendo las características necesarias para su funcionamiento. Esta vinculación es importante porque es una de las plataformas más usadas en el desarrollo de <em>apps</em> móviles por sus ventajas y recursos ofrecidos.
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down")
       .bloque-texto-g__img(
@@ -26,7 +26,7 @@
                 .col.mb-3.mb-sm-0
                   p.mt-3 Para asimilar y aplicar la vinculación de Firebase al proyecto de aplicación móvil, visite y estudie el #[strong(style="color: #12263F !important;") Anexo_1_VinculacionDeFirebaseALaAppMovil]. Desarrolle los pasos que allí se muestran y refuerce los aspectos más importantes de este desarrollo.
                 .col-sm-auto
-                  a.boton.boton--b.color-acento-contenido(:href="obtenerLink('downloads/Firebase.pdf')" target="_blank")
+                  a.boton.boton--b.color-acento-contenido(:href="obtenerLink('/downloads/firebase.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 

@@ -34,7 +34,7 @@ export default {
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Data Management System DBMS',
+            titulo: '<em>Data Management System</em> DBMS',
             hash: 't_2_1',
           },
           {
@@ -87,7 +87,7 @@ export default {
       {
         nombreRuta: 'tema8',
         numero: '8',
-        titulo: 'Configuración de Firebase a una app móvil híbrida',
+        titulo: 'Configuración de Firebase a una <em>app</em> móvil híbrida',
         desarrolloContenidos: true,
       },
       {
@@ -160,35 +160,34 @@ export default {
     {
       tema: '3. Gestores de bases de datos para apps móviles y relacionales',
       referencia:
-        'Hdeleon.net (2019). <em>¿Cómo hacer una base de datos para una app tipo Uber?</em> [Video]. YouTube.',
+        'Hdeleon.net (2019). <em>¿Cómo hacer una base de datos para una app tipo Uber?</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=1yAC3m7f5Pk',
     },
     {
       tema: '8. Configuración de Firebase a una app móvil híbrida',
-      referencia:
-        'Cano, J. (2017). <em>Nativescript, login con firebase</em> [Video]. YouTube.',
+      referencia: 'Cano, J. (2017). <em>Nativescript, login con firebase</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=WKfgnzl0p3E',
     },
     {
       tema: '4. Creación de base de datos PostgreSQL',
       referencia:
-        'Database Star. (2022). pgAdmin Tutorial - How to Use pgAdmin. [Video]. Youtube.',
+        'Database Star. (2022). pgAdmin Tutorial - How to Use pgAdmin. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=WFT5MaZN6g4',
     },
     {
       tema: '4. Creación de base de datos PostgreSQL',
       referencia:
-        'Reyes, P. (2021). Crear base de datos PostgreSQL - PGAdmin 4. [Video]. Youtube',
+        'Reyes, P. (2021). Crear base de datos PostgreSQL - PGAdmin 4.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=B_lqjZGwViI',
     },
     {
       tema: '10. SQLite para aplicaciones livianas',
       referencia:
-        'Henao, C. (2017). 50. <em>Cómo crear una Base de Datos SQLite en Android</em> [Video]. YouTube.',
+        'Henao, C. (2017). 50. <em>Cómo crear una Base de Datos SQLite en Android</em> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=9WiyqIcffe0',
     },
