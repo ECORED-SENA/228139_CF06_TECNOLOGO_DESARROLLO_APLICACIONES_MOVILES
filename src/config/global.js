@@ -165,12 +165,6 @@ export default {
       link: 'https://www.youtube.com/watch?v=1yAC3m7f5Pk',
     },
     {
-      tema: '8. Configuración de Firebase a una app móvil híbrida',
-      referencia: 'Cano, J. (2017). <em>Nativescript, login con firebase</em> ',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=WKfgnzl0p3E',
-    },
-    {
       tema: '4. Creación de base de datos PostgreSQL',
       referencia:
         'Database Star. (2022). pgAdmin Tutorial - How to Use pgAdmin. ',
@@ -183,6 +177,12 @@ export default {
         'Reyes, P. (2021). Crear base de datos PostgreSQL - PGAdmin 4.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=B_lqjZGwViI',
+    },
+    {
+      tema: '8. Configuración de Firebase a una app móvil híbrida',
+      referencia: 'Cano, J. (2017). <em>Nativescript, login con firebase</em> ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=WKfgnzl0p3E',
     },
     {
       tema: '10. SQLite para aplicaciones livianas',

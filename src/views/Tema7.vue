@@ -27,14 +27,14 @@
             figure.m-auto
               img(src="@/assets/curso/temas/tema7/fig10.svg" alt="Esquema en el que se representan los elementos necesarios para enfrentar problemas y generar soluciones de bases de datos móviles.")
           .col-lg-11
-            figcaption.mt-3 Nota. Tomada de https://www.semanticscholar.org/paper/A-Mobile-Database-Design-Methodology-for-Mobile-Yu-Sharma/41e3949c8aca76725184c740d782e79ca28efddc
+            figcaption.mt-3 Nota. Adaptado de Yu, W. & Sharma, S. (2007).
         .row.justify-content-center
           .col-lg-10
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Figura 11.] Webs Services
             figure.m-auto
               img(src="@/assets/curso/temas/tema7/fig11.svg" alt="Esquema en el que se presentan los componentes de los web services para las aplicaciones móviles.")
-            figcaption.mt-3 Nota. Tomada de https://diego.com.es/uploads/articulos/webservices.png
+            figcaption.mt-3 Nota. Adaptado de Lázaro, D. (2018).
 
     p.mb-4(data-aos="fade") Se invita a dar clic sobre los términos que aquí se proponen y descubrir en ellos algunos otros beneficios y aspectos funcionales del uso de servicios web.
 
