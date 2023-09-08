@@ -13,8 +13,8 @@
 
     figure.mb-4(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)        
-      figcaption Video.   
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/PgnkvZl0EGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)        
+      figcaption Video. Base de datos para aplicaciones móviles híbridas  
 
     .cajon.color-acento-contenido.p-4(data-aos="fade")
       p.mb-0 Tal necesidad ha provocado, también, que el almacenamiento de los datos en estos dispositivos haya mejorado, tanto en capacidad como en herramientas. Por dicha razón, en la actualidad, se cuenta con diversas opciones de manejadores de bases de datos para aplicaciones móviles que permiten una administración desde las bases de datos más pequeñas y fáciles de implementar, por lo general de manera local, hasta las más robustas que requieren todo un equipo de trabajo (Silberschatz, Korth y Sudarshan, 2006 ).
