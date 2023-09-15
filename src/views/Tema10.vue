@@ -16,7 +16,7 @@
             img(src='@/assets/curso/temas/tema10/1.svg', alt='')
       .col-md-6.mb-4(data-aos="fade-left")
         h3.mt-3 Historia
-        p.mt-3 Aparece en el año 2000 gracias a su desarrollador Richard Hip, bajo licencia GPL, su código es de dominio público y puede ser modificado. Su evolución es muy grande gracias a la cantidad de colaboradores que generan librerías que permiten ser utilizado en casi cualquier sistema y es soportado por muchos lenguajes de programación permitiendo una correcta integración. Es posible encontrar una gran cantidad de componentes, librerías y drivers para interactuar con SQLite desde una gran diversidad de lenguajes y plataformas de programación. Se adapta a lenguajes modernos como Java, Perl, Python, PHP, Ruby, C#, y a lenguajes más viejos como Pascal, SmallTalk, Clipper, para todos es posible librerías y ejemplos de código para SQLite (Rómmel, s. f.).
+        p.mt-3 Aparece en el año 2000 gracias a su desarrollador Richard Hip, bajo licencia GPL, su código es de dominio público y puede ser modificado. Su evolución es muy grande gracias a la cantidad de colaboradores que generan librerías que permiten ser utilizado en casi cualquier sistema y es soportado por muchos lenguajes de programación permitiendo una correcta integración. Es posible encontrar una gran cantidad de componentes, librerías y #[em drivers] para interactuar con SQLite desde una gran diversidad de lenguajes y plataformas de programación. Se adapta a lenguajes modernos como Java, Perl, Python, PHP, Ruby, C#, y a lenguajes más viejos como Pascal, SmallTalk, Clipper, para todos es posible librerías y ejemplos de código para SQLite (Rómmel, s. f.).
 
     .row.mb-3.mb-lg-4
       .col-md-6.mb-4(data-aos="fade-right")

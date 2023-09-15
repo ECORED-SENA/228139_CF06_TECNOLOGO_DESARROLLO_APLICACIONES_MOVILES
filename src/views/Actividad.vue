@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
           h2 Gestores de bases de datos
-        p.mb-4 Reconocer los gestores para modelos relaciones y no relacionales, de acuerdo a la administración de datos.
+        p.mb-4 Reconocer los gestores para modelos relacionales y no relacionales, de acuerdo a la administración de datos.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

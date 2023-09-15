@@ -13,7 +13,7 @@
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema7/1.svg')})`}")
       .bloque-texto-g__texto.p-4
-        p.mb-0 De acuerdo con Rodríguez, Martín, Valenzuela y Chávez (2009) distintas aplicaciones de #[em software], desarrolladas en lenguajes de programación diferentes y ejecutadas sobre cualquier plataforma, pueden utilizar los #[em Web Service] para intercambiar información en redes de computadoras, como internet, evitando la pérdida total de la información y la conexión (p. 2).
+        p.mb-0 De acuerdo con Rodríguez, Martín, Valenzuela y Chávez (2009) distintas aplicaciones de #[em software], desarrolladas en lenguajes de programación diferentes y ejecutadas sobre cualquier plataforma, pueden utilizar #[em Web Service] para intercambiar información en redes de computadoras, como internet, evitando la pérdida total de la información y la conexión (p. 2).
 
     p.mb-4(data-aos="fade") En las figuras que se muestran, se invita a reconocer los elementos clave para el diseño de una base de datos móvil y los beneficios del uso de servidores web para las aplicaciones móviles.
 
@@ -22,7 +22,7 @@
         .row.justify-content-center
           .col-lg-11
             .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Figura 10.] Elementos clave para el diseño de una base de datos móvil
+              p.mb-0 #[b Figura 3.] Elementos clave para el diseño de una base de datos móvil
           .col-lg-8
             figure.m-auto
               img(src="@/assets/curso/temas/tema7/fig10.svg" alt="Esquema en el que se representan los elementos necesarios para enfrentar problemas y generar soluciones de bases de datos móviles.")
@@ -31,7 +31,7 @@
         .row.justify-content-center
           .col-lg-10
             .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Figura 11.] Webs Services
+              p.mb-0 #[b Figura 4.] Webs Services
             figure.m-auto
               img(src="@/assets/curso/temas/tema7/fig11.svg" alt="Esquema en el que se presentan los componentes de los web services para las aplicaciones móviles.")
             figcaption.mt-3 Nota. Adaptado de Lázaro, D. (2018).

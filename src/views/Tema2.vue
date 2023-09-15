@@ -19,7 +19,7 @@
     Separador 
 
     .titulo-segundo.color-acento-contenido.mt-5(data-aos="fade")
-      h2#t_2_1 2.1 <em>Data management system</em> DNMS
+      h2#t_2_1 2.1 <em>Data management system</em> DBMS
 
     p.mb-4(data-aos="fade") Este se puede definir como un #[em software] que estructura y organiza la información, bajo un modelo de almacenamiento que cuenta con ciertas características particulares, al momento de almacenar configurar, administrar y utilizar la información.
 
